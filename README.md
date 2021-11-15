@@ -56,23 +56,23 @@ The Following entities will be present in the network :
     1. Run Tracker: ./tracker tracker\_info.txt tracker\_no tracker\_info.txt - Contains ip, port details of all the trackers 
     1. Close Tracker: quit 
 2. Client: 
-    1. Run Client: ./client  <IP>: <PORT> tracker\_info.txt
-    tracker\_info.txt - Contains ip, port details of all the trackers 
-    2. Create User Account:  create\_user <user\_id>  <passwd>
-    2. Login: login  <user\_id> <passwd>
-    2. Create Group:  creat e\_group  <group\_id>
-    2. Join Group:  join\_group  <group\_id>
-    2. Leave Group:  leave\_group  <group\_id>
-    2. List pending join: requests  list\_requests  <group\_id>
-    2. Accept Group Joining Request: accept\_request <group\_id> <user\_id>
-    2. List All Group In Network:  list\_groups
-    2. List All sharable Files In Group:  list\_files <group\_id>
-    2. Upload File: upload\_file <file\_path> <group\_id> 
-    2. Download File:  download\_file <group\_id> <file\_name>  <destination\_path>
-    13. Logout:  logout
-    14. Show\_downloads: show\_downloads
+    1. Run Client: `./client <IP>:<PORT> tracker_info.txt`
+    - tracker\_info.txt - Contains ip, port details of all the trackers 
+    2. Create User Account:  `create_user <user_id>  <passwd>`
+    2. Login: `login  <user_id> <passwd>`
+    2. Create Group:  `create_group  <group_id>`
+    2. Join Group:  `join_group  <group_id>`
+    2. Leave Group:  `leave_group  <group_id>`
+    2. List pending join requests:  `list_requests  <group_id>`
+    2. Accept Group Joining Request: `accept_request <group_id> <user_id>`
+    2. List All Group In Network:  `list_groups`
+    2. List All sharable Files In Group:  `list_files <group_id>`
+    2. Upload File: `upload_file <file_path> <group_id>` 
+    2. Download File:  `download_file <group_id> <file_name>  <destination_path>`
+    13. Logout:  `logout`
+    14. Show downloads: `show_downloads`
         1. Output format:  
             [D] [grp\_id] filename  
             [C] [grp\_id] filename  
             D(Downloading), C(Complete) 
-    15. Stop sharing: stop\_share <group\_id> <file\_name>
+    15. Stop sharing: `stop_share <group_id> <file_name>`
