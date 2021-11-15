@@ -1,13 +1,9 @@
-# Peer-to-Peer Group Based File Sharing System
+# Mini-Torrent
 
-### Pre-requisites:
-
-Socket Programming, Multi-threading 
-
-## Goal 
-
-Built a group based file sharing system where users can share, download files from the group they belong to. Download should be parallel with multiple pieces from multiple peers. 
-
+Built a peer-to-peer group based file sharing system
+where users could share or download files from the groups
+they belonged to. Supports parallel downloading with multiple file chunks
+from multiple peers. Wrote a piece selection algorithm for the same.
 ## Note
 
 - You have to divide the file into logical “pieces” , wherein the size of each piece should be 512KB 
